@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MusicListActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:background="#CCC"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:elevation="1.0dip">
+
+        <TextView
+            android:id="@+id/ivmaintitle"
+            android:layout_width="160.0dip"
+            android:layout_height="18.0dip"
+            android:layout_marginTop="11.0dip"
+            android:src="@mipmap/ic_launcher"
+            app:tint="@color/design_default_color_primary"
+            android:layout_alignParentLeft="true"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="GKI Samanhudi"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search..."/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <include layout="@layout/footer"
+        android:id="@+id/footer"
+        android:visibility="gone"/>
+
+</LinearLayout>

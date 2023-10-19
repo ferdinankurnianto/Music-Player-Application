@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:orientation="horizontal"
+    android:onClick="goToPlayer">
+
+    <ImageView android:id="@+id/image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <TextView android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:paddingBottom="2dp"
+            style="@style/TextAppearance.Compat.Notification.Title" />
+
+        <TextView android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:paddingTop="2dp"
+            style="@style/TextAppearance.Compat.Notification" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/prev"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_back"
+        android:contentDescription="Previous"
+        android:onClick="back"/>
+    <ImageView
+        android:id="@+id/action"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_stat_name"
+        android:contentDescription="Play/Pause"
+        android:onClick="musicPlayHandler" />
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_forward"
+        android:contentDescription="Next"
+        android:onClick="next"/>
+
+</LinearLayout>
