@@ -1,0 +1,70 @@
+ERROR - 2023-01-13 21:32:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`REGEXP` = '^kj'' at line 3 in D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `t...', 0)
+#1 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 D:\XAMPP\htdocs\gkimusicplayer\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\gkimusicplayer\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\gkimusicplayer\app\Controllers\LaguPujian.php(33): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+#8 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+#9 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\gkimusicplayer\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-13 21:32:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`REGEXP` = '^kj'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `title`, `artist`, `singer`
+FROM `lagu_pujian`
+WHERE `title` `REGEXP` = \'^kj\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `artist`, `singer`
+FROM `lagu_pujian`
+WHERE `title` `REGEXP` = \'^kj\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `artist`, `singer`
+FROM `lagu_pujian`
+WHERE `title` `REGEXP` = \'^kj\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `artist`, `singer`
+FROM `lagu_pujian`
+WHERE `title` `REGEXP` = :title REGEXP:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\LaguPujian.php(33): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-13 21:33:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`REGEXP` = '^kj'' at line 3 in D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `t...', 0)
+#1 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `t...')
+#2 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `t...')
+#3 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#4 D:\XAMPP\htdocs\gkimusicplayer\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\gkimusicplayer\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\gkimusicplayer\app\Controllers\LaguPujian.php(33): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+#8 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+#9 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\gkimusicplayer\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-13 21:33:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`REGEXP` = '^kj'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `title`, `artist`, `singer`
+FROM `lagu_pujian`
+WHERE `title` `REGEXP` = \'^kj\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `title`, `artist`, `singer`
+FROM `lagu_pujian`
+WHERE `title` `REGEXP` = \'^kj\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `title`, `artist`, `singer`
+FROM `lagu_pujian`
+WHERE `title` `REGEXP` = \'^kj\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `title`, `artist`, `singer`
+FROM `lagu_pujian`
+WHERE `title` `REGEXP` = :title REGEXP:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\LaguPujian.php(33): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

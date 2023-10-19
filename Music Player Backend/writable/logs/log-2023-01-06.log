@@ -1,0 +1,332 @@
+CRITICAL - 2023-01-06 01:15:07 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\LaguPujian.php on line 45.
+ 1 APPPATH\Controllers\LaguPujian.php(45): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:15:19 --> Array to string conversion
+in APPPATH\Controllers\LaguPujian.php on line 45.
+ 1 APPPATH\Controllers\LaguPujian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\LaguPujian.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:15:51 --> Array to string conversion
+in APPPATH\Controllers\LaguPujian.php on line 45.
+ 1 APPPATH\Controllers\LaguPujian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\LaguPujian.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:26:36 --> Attempt to read property "title" on array
+in APPPATH\Controllers\LaguPujian.php on line 51.
+ 1 APPPATH\Controllers\LaguPujian.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on array', 'APPPATH\\Controllers\\LaguPujian.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:26:55 --> Attempt to read property "title" on array
+in APPPATH\Controllers\LaguPujian.php on line 51.
+ 1 APPPATH\Controllers\LaguPujian.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on array', 'APPPATH\\Controllers\\LaguPujian.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:28:16 --> Attempt to read property "artist" on array
+in APPPATH\Controllers\LaguPujian.php on line 52.
+ 1 APPPATH\Controllers\LaguPujian.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "artist" on array', 'APPPATH\\Controllers\\LaguPujian.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:32:45 --> Undefined array key "draw"
+in APPPATH\Controllers\LaguPujian.php on line 63.
+ 1 APPPATH\Controllers\LaguPujian.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\LaguPujian.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:32:53 --> Call to undefined method App\Models\LaguPujianModel::count_all
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\LaguPujian.php(63): CodeIgniter\Model->__call('count_all', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:35:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+in APPPATH\Models\LaguPujianModel.php on line 18.
+ 1 APPPATH\Controllers\LaguPujian.php(63): App\Models\LaguPujianModel->count_all()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:35:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::count_all_results()
+in APPPATH\Models\LaguPujianModel.php on line 19.
+ 1 APPPATH\Controllers\LaguPujian.php(63): App\Models\LaguPujianModel->count_all()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:36:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::countAllResults()
+in APPPATH\Models\LaguPujianModel.php on line 19.
+ 1 APPPATH\Controllers\LaguPujian.php(63): App\Models\LaguPujianModel->count_all()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:36:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::countAllResults()
+in APPPATH\Models\LaguPujianModel.php on line 19.
+ 1 APPPATH\Controllers\LaguPujian.php(63): App\Models\LaguPujianModel->count_all()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:38:25 --> Undefined array key "draw"
+in APPPATH\Controllers\LaguPujian.php on line 63.
+ 1 APPPATH\Controllers\LaguPujian.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\LaguPujian.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:38:42 --> Undefined variable $requestData
+in APPPATH\Controllers\LaguPujian.php on line 63.
+ 1 APPPATH\Controllers\LaguPujian.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $requestData', 'APPPATH\\Controllers\\LaguPujian.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:39:59 --> Undefined variable $request
+in APPPATH\Controllers\LaguPujian.php on line 63.
+ 1 APPPATH\Controllers\LaguPujian.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\LaguPujian.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:33:13 --> syntax error, unexpected single-quoted string "singer", expecting "]"
+in APPPATH\Controllers\LaguPujian.php on line 72.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LaguPujian.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LaguPujian')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LaguPujian')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\LaguPujian', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:33:27 --> syntax error, unexpected single-quoted string "singer", expecting "]"
+in APPPATH\Controllers\LaguPujian.php on line 72.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LaguPujian.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LaguPujian')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LaguPujian')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\LaguPujian', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:33:29 --> syntax error, unexpected single-quoted string "singer", expecting "]"
+in APPPATH\Controllers\LaguPujian.php on line 72.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LaguPujian.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LaguPujian')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LaguPujian')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\LaguPujian', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:11:42 --> Undefined variable $tgis
+in APPPATH\Controllers\LaguPujian.php on line 78.
+ 1 APPPATH\Controllers\LaguPujian.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tgis', 'APPPATH\\Controllers\\LaguPujian.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:11:49 --> Undefined variable $tgis
+in APPPATH\Controllers\LaguPujian.php on line 78.
+ 1 APPPATH\Controllers\LaguPujian.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tgis', 'APPPATH\\Controllers\\LaguPujian.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:13:12 --> Call to a member function store() on null
+in APPPATH\Controllers\LaguPujian.php on line 143.
+ 1 APPPATH\Controllers\LaguPujian.php(78): App\Controllers\LaguPujian->upload(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:18:45 --> Call to a member function store() on null
+in APPPATH\Controllers\LaguPujian.php on line 143.
+ 1 APPPATH\Controllers\LaguPujian.php(78): App\Controllers\LaguPujian->upload(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:21:26 --> Call to a member function store() on null
+in APPPATH\Controllers\LaguPujian.php on line 143.
+ 1 APPPATH\Controllers\LaguPujian.php(78): App\Controllers\LaguPujian->upload(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:22:02 --> Call to a member function store() on null
+in APPPATH\Controllers\LaguPujian.php on line 135.
+ 1 APPPATH\Controllers\LaguPujian.php(70): App\Controllers\LaguPujian->upload(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:27:25 --> Call to a member function store() on null
+in APPPATH\Controllers\LaguPujian.php on line 135.
+ 1 APPPATH\Controllers\LaguPujian.php(70): App\Controllers\LaguPujian->upload(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:28:59 --> Call to a member function store() on array
+in APPPATH\Controllers\LaguPujian.php on line 135.
+ 1 APPPATH\Controllers\LaguPujian.php(72): App\Controllers\LaguPujian->upload([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:31:25 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH\\writable\\uploads\\20230106', '1673069485_c050b739451796c7ab34')
+ 3 APPPATH\Controllers\LaguPujian.php(135): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 APPPATH\Controllers\LaguPujian.php(70): App\Controllers\LaguPujian->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:32:05 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH\\writable\\uploads\\20230106', '1673069525_459528149224af3a200f')
+ 3 APPPATH\Controllers\LaguPujian.php(135): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 APPPATH\Controllers\LaguPujian.php(70): App\Controllers\LaguPujian->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:33:54 --> Call to a member function store() on null
+in APPPATH\Controllers\LaguPujian.php on line 135.
+ 1 APPPATH\Controllers\LaguPujian.php(70): App\Controllers\LaguPujian->upload(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:34:18 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH\\writable\\uploads\\20230106', '1673069658_9bb1b8f6b0e99e9c366d')
+ 3 APPPATH\Controllers\LaguPujian.php(135): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 APPPATH\Controllers\LaguPujian.php(70): App\Controllers\LaguPujian->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:36:48 --> Call to a member function store() on array
+in APPPATH\Controllers\LaguPujian.php on line 135.
+ 1 APPPATH\Controllers\LaguPujian.php(72): App\Controllers\LaguPujian->upload([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:40:59 --> Undefined variable $img
+in APPPATH\Controllers\LaguPujian.php on line 135.
+ 1 APPPATH\Controllers\LaguPujian.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $img', 'APPPATH\\Controllers\\LaguPujian.php', 135)
+ 2 APPPATH\Controllers\LaguPujian.php(70): App\Controllers\LaguPujian->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:41:19 --> Call to a member function store() on array
+in APPPATH\Controllers\LaguPujian.php on line 135.
+ 1 APPPATH\Controllers\LaguPujian.php(72): App\Controllers\LaguPujian->upload([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:47:26 --> syntax error, unexpected token ";"
+in APPPATH\Controllers\LaguPujian.php on line 135.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LaguPujian.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LaguPujian')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LaguPujian')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\LaguPujian', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:47:47 --> Undefined variable $path
+in APPPATH\Controllers\LaguPujian.php on line 138.
+ 1 APPPATH\Controllers\LaguPujian.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $path', 'APPPATH\\Controllers\\LaguPujian.php', 138)
+ 2 APPPATH\Controllers\LaguPujian.php(70): App\Controllers\LaguPujian->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:49:35 --> Call to a member function store() on array
+in APPPATH\Controllers\LaguPujian.php on line 135.
+ 1 APPPATH\Controllers\LaguPujian.php(72): App\Controllers\LaguPujian->upload([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:51:17 --> Call to a member function store() on array
+in APPPATH\Controllers\LaguPujian.php on line 135.
+ 1 APPPATH\Controllers\LaguPujian.php(72): App\Controllers\LaguPujian->upload([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:52:57 --> Unclosed '{' on line 134 does not match ']'
+in APPPATH\Controllers\LaguPujian.php on line 138.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LaguPujian.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LaguPujian')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LaguPujian')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\LaguPujian', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:52:58 --> Unclosed '{' on line 134 does not match ']'
+in APPPATH\Controllers\LaguPujian.php on line 138.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LaguPujian.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LaguPujian')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LaguPujian')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\LaguPujian', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:53:16 --> Unclosed '{' on line 134 does not match ']'
+in APPPATH\Controllers\LaguPujian.php on line 138.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LaguPujian.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LaguPujian')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LaguPujian')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\LaguPujian', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:53:42 --> Allowed fields must be specified for model: App\Models\LaguPujianModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\LaguPujianModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\LaguPujian.php(91): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:55:41 --> Unsupported operand types: string + string
+in APPPATH\Controllers\LaguPujian.php on line 135.
+ 1 APPPATH\Controllers\LaguPujian.php(70): App\Controllers\LaguPujian->upload(Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:57:07 --> Allowed fields must be specified for model: App\Models\LaguPujianModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\LaguPujianModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\LaguPujian.php(91): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->add()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

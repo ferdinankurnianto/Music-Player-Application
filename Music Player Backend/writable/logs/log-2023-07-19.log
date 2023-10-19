@@ -1,0 +1,116 @@
+CRITICAL - 2023-07-19 16:53:18 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-19 16:54:22 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-19 16:54:24 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-19 16:54:26 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-19 16:54:48 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-19 16:54:49 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-07-19 09:55:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'samanhudi28', 'gkimusicplayer', 3306, '', 0)
+#1 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\gkimusicplayer\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\gkimusicplayer\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\gkimusicplayer\app\Controllers\User.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(927): App\Controllers\User->loginCheck()
+#8 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\gkimusicplayer\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\XAMPP\htdocs\gkimusicplayer\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\XAMPP\htdocs\gkimusicplayer\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\XAMPP\htdocs\gkimusicplayer\app\Controllers\User.php(19): CodeIgniter\BaseModel->findAll()
+#6 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(927): App\Controllers\User->loginCheck()
+#7 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\gkimusicplayer\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-19 09:55:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `password` = :password:
+AND `name` = :name:', [...], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\User.php(19): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->loginCheck()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 09:55:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'samanhudi28', 'gkimusicplayer', 3306, '', 0)
+#1 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\gkimusicplayer\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\gkimusicplayer\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\gkimusicplayer\app\Controllers\User.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(927): App\Controllers\User->loginCheck()
+#8 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\gkimusicplayer\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\XAMPP\htdocs\gkimusicplayer\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\XAMPP\htdocs\gkimusicplayer\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\XAMPP\htdocs\gkimusicplayer\app\Controllers\User.php(19): CodeIgniter\BaseModel->findAll()
+#6 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(927): App\Controllers\User->loginCheck()
+#7 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\gkimusicplayer\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-19 09:55:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `password` = :password:
+AND `name` = :name:', [...], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\User.php(19): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->loginCheck()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

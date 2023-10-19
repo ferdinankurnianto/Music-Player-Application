@@ -1,0 +1,68 @@
+CRITICAL - 2022-12-09 00:48:34 --> Call to a member function like() on array
+in APPPATH\Controllers\LaguPujian.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 00:49:05 --> Undefined variable $saerch
+in APPPATH\Controllers\LaguPujian.php on line 26.
+ 1 APPPATH\Controllers\LaguPujian.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $saerch', 'APPPATH\\Controllers\\LaguPujian.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 00:50:36 --> Undefined array key "file_url"
+in APPPATH\Views\lagu_pujian.php on line 5.
+ 1 APPPATH\Views\lagu_pujian.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file_url"', 'APPPATH\\Views\\lagu_pujian.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lagu_pujian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lagu_pujian', [], true)
+ 5 APPPATH\Controllers\LaguPujian.php(28): view('lagu_pujian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 02:22:10 --> Call to undefined method App\Models\LaguPujianModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\LaguPujian.php(32): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getLast()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 02:22:39 --> Call to undefined method App\Models\LaguPujianModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\LaguPujian.php(32): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getLast()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 02:23:01 --> Call to undefined method App\Models\LaguPujianModel::order_by
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\LaguPujian.php(32): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getLast()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 02:24:39 --> Call to a member function row() on array
+in APPPATH\Controllers\LaguPujian.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getLast()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 02:24:39 --> Call to a member function row() on array
+in APPPATH\Controllers\LaguPujian.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getLast()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 02:34:53 --> Array to string conversion
+in APPPATH\Views\last.php on line 2.
+ 1 APPPATH\Views\last.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\last.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\last.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('last', [], true)
+ 5 APPPATH\Controllers\LaguPujian.php(33): view('last', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->getLast()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

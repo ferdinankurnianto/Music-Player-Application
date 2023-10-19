@@ -1,0 +1,41 @@
+ERROR - 2022-12-12 22:18:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'gkimusicplayer', 3306, '', 0)
+#1 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\gkimusicplayer\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\gkimusicplayer\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\gkimusicplayer\app\Controllers\LaguPujian.php(10): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(927): App\Controllers\LaguPujian->index()
+#8 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+#9 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\gkimusicplayer\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\XAMPP\htdocs\gkimusicplayer\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\XAMPP\htdocs\gkimusicplayer\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\XAMPP\htdocs\gkimusicplayer\app\Controllers\LaguPujian.php(10): CodeIgniter\BaseModel->findAll()
+#6 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(927): App\Controllers\LaguPujian->index()
+#7 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+#8 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\gkimusicplayer\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-12 22:18:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `lagu_pujian`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\LaguPujian.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

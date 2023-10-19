@@ -1,0 +1,63 @@
+CRITICAL - 2022-12-08 20:20:39 --> Undefined constant "n"
+in APPPATH\Views\lagu_pujian.php on line 3.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lagu_pujian', [], true)
+ 4 APPPATH\Controllers\LaguPujian.php(11): view('lagu_pujian', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 20:59:33 --> Undefined variable $request
+in APPPATH\Controllers\LaguPujian.php on line 16.
+ 1 APPPATH\Controllers\LaguPujian.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\LaguPujian.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 20:59:34 --> Undefined variable $request
+in APPPATH\Controllers\LaguPujian.php on line 16.
+ 1 APPPATH\Controllers\LaguPujian.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\LaguPujian.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 20:59:48 --> Undefined variable $request
+in APPPATH\Controllers\LaguPujian.php on line 16.
+ 1 APPPATH\Controllers\LaguPujian.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\LaguPujian.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 21:01:01 --> Undefined variable $request
+in APPPATH\Controllers\LaguPujian.php on line 16.
+ 1 APPPATH\Controllers\LaguPujian.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\LaguPujian.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 21:01:05 --> Undefined variable $request
+in APPPATH\Controllers\LaguPujian.php on line 16.
+ 1 APPPATH\Controllers\LaguPujian.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\LaguPujian.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 21:07:07 --> Array to string conversion
+in APPPATH\Views\lagu_pujian.php on line 11.
+ 1 APPPATH\Views\lagu_pujian.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\lagu_pujian.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lagu_pujian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lagu_pujian', [], true)
+ 5 APPPATH\Controllers\LaguPujian.php(11): view('lagu_pujian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 23:17:49 --> Undefined variable $laguPujianModel
+in APPPATH\Controllers\LaguPujian.php on line 20.
+ 1 APPPATH\Controllers\LaguPujian.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $laguPujianModel', 'APPPATH\\Controllers\\LaguPujian.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

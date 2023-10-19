@@ -1,0 +1,53 @@
+ERROR - 2022-12-07 02:47:52 --> mysqli_sql_exception: No database selected in D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\XAMPP\htdocs\gkimusicplayer\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\gkimusicplayer\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\gkimusicplayer\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\gkimusicplayer\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\gkimusicplayer\app\Controllers\LaguPujian.php(10): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(927): App\Controllers\LaguPujian->index()
+#8 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+#9 D:\XAMPP\htdocs\gkimusicplayer\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\gkimusicplayer\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-07 02:47:52 --> No database selected
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `lagu_pujian`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `lagu_pujian`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `lagu_pujian`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `lagu_pujian`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\LaguPujian.php(10): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 02:50:53 --> Undefined variable $laguPujian
+in APPPATH\Views\lagu_pujian.php on line 2.
+ 1 APPPATH\Views\lagu_pujian.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $laguPujian', 'APPPATH\\Views\\lagu_pujian.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lagu_pujian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lagu_pujian', [], true)
+ 5 APPPATH\Controllers\LaguPujian.php(11): view('lagu_pujian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 02:53:06 --> Array to string conversion
+in APPPATH\Views\lagu_pujian.php on line 2.
+ 1 APPPATH\Views\lagu_pujian.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\lagu_pujian.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lagu_pujian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lagu_pujian', [], true)
+ 5 APPPATH\Controllers\LaguPujian.php(11): view('lagu_pujian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LaguPujian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaguPujian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
